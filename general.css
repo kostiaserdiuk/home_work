@@ -1,4 +1,4 @@
-/* #header{
+#header{
     width: 70rem;
     height: 72px;
     margin: 0 auto;
@@ -6,13 +6,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-} */
-
-#header #home{
-    color: black;
 }
 
-/* #header a{
+#header a{
     margin: 0;
     font-size: 1.75rem;
     color: #818181;
@@ -22,71 +18,19 @@
     -moz-transition: all 0.3s ease;;
     -o-transition: all 0.3s ease;;
     transition: all 0.3s ease;
-} */
+}
 
-/* #main{
+#main{
     max-width: 70rem;
     margin: 0 auto;
 }
 
 body{
     font-family: 'OpenSansSemi';
-} */
-
-#components{
-    margin-top: 6.5rem;
-    width: 70rem;
-    display: flex;
+    height: 7000px;
 }
 
-
-#text-components h1{
-    margin: 0 0 0 65px;
-    font-size: 64px;
-    height:  161px;
-    width: 220px;
-}
-
-#text-components h6{
-    font-size: 24px;
-    margin: 83px 0 0 380px;
-    height: 72px;
-    width: 160px;
-    font-family: 'Roboto';
-}
-
-#text-components{
-    display: flex;
-}
-
-#human{
-    margin: 71px 77px 0 0;
-    height: 435px;
-    width: 600px;
-}
-
-#img-components{
-    display: flex;
-    flex-direction: row;
-}
-
-#glasses{
-    height: 278px;
-    width: 295px;
-    margin: 156px 0 0 0;
-}
-
-#ukr{
-    color: #818181;
-    cursor: pointer;
-}
-
-#eng{
-    color: black;
-    cursor: pointer;
-}
-
-/* #language h6{
+#language h6{
     font-family: 'OpenSansExtraBold';
     margin: 0;
     font-size: 24px;
@@ -100,21 +44,13 @@ body{
     line-height: 33px;
     transform: rotate(-90deg);
     margin: 80px 0 0 88px;
-} */
-
+}
 
 #header a:hover{
     color: black;
 }
 
-
-
-
-
-
-
-
-/* @font-face {
+@font-face {
     font-family: 'OpenSansSemi';
     src: url(fonts/OpenSans-SemiBold.ttf);
 }
@@ -127,4 +63,4 @@ body{
 @font-face {
     font-family: 'OpenSansExtraBold';
     src: url(fonts/OpenSans-ExtraBold.ttf);
-} */
+}

@@ -5,18 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ocolus VR</title>
+    <link rel="stylesheet" href="general.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="main">
         <div id="header">
-            <a href="#">Home</a>
-            <a href="#">About us</a>
-            <a href="#">Apps</a>
-            <a href="#">VR Products</a>
-            <a href="#">Contact</a>
+            <a id="home" href="#">Home</a>
+            <a id="about" href="#">About us</a>
+            <a id="apps" href="#">Apps</a>
+            <a id="products" href="#">VR Products</a>
+            <a id="contact" href="#">Contact</a>
+        </div>
+        <div id="components">
+            <div id="main-components">
+                <div id="text-components">
+                    <h1>Oculus VR</h1>
+                    <h6>VR-company on Facebook.</h6>
+                </div>
+                <div id="img-components">
+                    <img id="human" src="images/Tech Life Virtual Reality.png" alt="VR-human">
+                    <img  id="glasses" src="images/vr-glasses.png" alt="vr-glasses">
+                </div>
+            </div>
+            
+            <div id="language">
+                <h6 onclick="changeLanguage('ukr')" name="ukr" id="ukr">UA</h6>
+                <h6>|</h6>
+                <h6 onclick="changeLanguage('eng')" name="eng" id="eng">ENG</h6>
+            </div>
         </div>
     </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>
